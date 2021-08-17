@@ -1,6 +1,6 @@
 class StaticController < ApplicationController
 
     def home
-        render json: {status: "My app is working  "}
+        render json: {status: "My Rails API is working ... "}
     end 
 end 
